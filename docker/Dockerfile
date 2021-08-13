@@ -4,7 +4,7 @@ FROM mariadb
 
 #Author
 #-------
-MAINTAINER Jennifer Reif <jennifer@thehecklers.org,@JMHReif>
+LABEL org.opencontainers.image.authors="Jennifer Reif,jennifer@thehecklers.org,@JMHReif"
 
 #Define mountable directories.
 VOLUME ["/etc/mysql","/var/lib/mysql"]
