@@ -13,4 +13,4 @@ VOLUME ["/etc/mysql","/var/lib/mysql"]
 EXPOSE 3306
 
 #Define default command.
-CMD ["mysqld"]
+CMD ["mariadbd"]
